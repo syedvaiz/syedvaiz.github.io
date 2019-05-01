@@ -1,26 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css\style.css"> 
-    <style>
-      body {
-        background: url(css/pic3.jpg) ; background-size: 1450px 1000px ; 
-      }
-    </style>
-    <title>Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+   background: url("background.jpg"); background-size: 10450px 10000px ; no-repeat;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle; top: 5;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+</style>
 </head>
-<body>
-    <blink>
-    <h1>
-    <center id="BBB">Hello guys hey there</center>
-  </h1></blink>
-  
-  <marquee><p class="AAA">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi consequatur, fugiat expedita omnis unde ut quas velit commodi neque veniam ullam earum voluptates at provident deserunt temporibus officiis eaque obcaecati?
-    </p></marquee>
-  
-  
+<body background: img src="css/background.jpg"; no-repeat ;>
+
+
+
+<div class="container">
+  <img src="css/vaiz.jpg" alt="Notebook" style="width:100%;">
+  <div class="content">
+    <h1><strong>SYED VAIZ</strong></h1>
+    <p>Hello readers i'm syed vaiz from channapatna,<br>student at Ghousia college of Engg, <br>Like to play Footballl... </p>
+		
+
+<a href="https://twitter.com/syed_vaiz" class="fa fa-twitter"><img src="css/twitter.png" alt="Twitter" class="fa";></a>
+<a href="https://mail.google.com/mail/u/0/?tab=rm#inbox" class="fa fa-google"><img src="css/google.png" alt="Google" class="fa";></a>
+<a href="https://www.linkedin.com/feed/" class="fa fa-linkedin"><img src="css/in.png" alt="linkedIn" class="fa";></a>
+<a href="https://www.youtube.com/channel/UC4BMu-bA3GT6pA7fDtd_BuA" class="fa fa-youtube"><img src="css/youtube.png" alt="youtube" class="fa";></a>
+<a href="https://www.instagram.com/syedvaiz/" class="fa fa-instagram"><img src="css/insta.png" alt="insta" class="fa";></a>
+
+</div>
+</div>
+
 </body>
 </html>
